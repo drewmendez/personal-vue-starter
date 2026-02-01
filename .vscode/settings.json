@@ -1,0 +1,141 @@
+{
+	// ==========================================
+	// Editor Settings
+	// ==========================================
+	"editor.fontFamily": "'Jetbrains Mono', Monaco, 'Courier New', monospace",
+	"editor.fontSize": 12,
+	"editor.lineHeight": 1.6,
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.smoothScrolling": true,
+	"editor.scrollBeyondLastLine": false,
+	"editor.minimap.enabled": false,
+	"editor.padding.bottom": 150,
+	"editor.stickyScroll.enabled": false,
+	"editor.semanticHighlighting.enabled": true,
+	"editor.bracketPairColorization.enabled": false,
+
+	// Editor - Go to Location
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"editor.gotoLocation.multipleDeclarations": "goto",
+	"editor.gotoLocation.multipleImplementations": "goto",
+	"editor.gotoLocation.multipleReferences": "goto",
+	"editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+	// Editor - Formatting
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+
+	// ==========================================
+	// Code Actions & Linting
+	// ==========================================
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "always"
+	},
+	"eslint.run": "onType",
+
+	// ==========================================
+	// File Settings
+	// ==========================================
+	"files.autoSave": "onWindowChange",
+	"files.associations": {
+		"*.page-template": "vue",
+		"*.layout-template": "vue",
+		"*.vue": "vue",
+		".env*": "ini"
+	},
+
+	// ==========================================
+	// Terminal Settings
+	// ==========================================
+	"terminal.integrated.fontFamily": "'MesloLGS NF', Monaco, 'Courier New', monospace",
+	"terminal.integrated.fontWeight": "normal",
+	"terminal.integrated.minimumContrastRatio": 5.5,
+	"terminal.integrated.smoothScrolling": true,
+	"terminal.integrated.suggest.enabled": false,
+	"terminal.integrated.env.osx": {},
+
+	// ==========================================
+	// Git Settings
+	// ==========================================
+	"git.autofetch": true,
+
+	// ==========================================
+	// Workbench Settings
+	// ==========================================
+	"workbench.colorTheme": "JetBrains New Dark",
+	"workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+	"window.commandCenter": true,
+	"window.zoomLevel": 0.1,
+	"breadcrumbs.enabled": false,
+
+	// ==========================================
+	// Editor Theme Customizations
+	// ==========================================
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": [
+					"variable.other.readwrite",
+					"variable.other.constant",
+					"variable.other.enumermember",
+					"keyword.control.loop.vue",
+					"invalid.deprecated.entity.other.attribute-name.html",
+					"variable.parameter"
+				],
+				"settings": {
+					"foreground": "#BCBEC4"
+				}
+			},
+			{
+				"scope": [
+					"variable.other.property",
+					"variable",
+					"meta.definition.variable.name",
+					"support.variable",
+					"entity.name.variable",
+					"constant.other.placeholder",
+					"entity.name.function",
+					"support.class",
+					"variable.other.constant.property"
+				],
+				"settings": {
+					"foreground": "#c77dbbef"
+				}
+			},
+			{
+				"scope": "constant.numeric",
+				"settings": {
+					"foreground": "#28b1be"
+				}
+			},
+			{
+				"scope": ["entity.name.function.member", "entity.name.function.ts"],
+				"settings": {
+					"foreground": "#37a9e6"
+				}
+			},
+			{
+				"scope": "support.type.primitive.ts",
+				"settings": {
+					"foreground": "#CE8C6B"
+				}
+			}
+		]
+	},
+
+	// ==========================================
+	// Extensions Settings
+	// ==========================================
+	"indentRainbow.colors": [
+		"rgba(255,255,64,0.01)",
+		"rgba(127,255,127,0.01)",
+		"rgba(255,127,255,0.01)",
+		"rgba(79,236,236,0.01)"
+	],
+
+	// ==========================================
+	// Package Manager
+	// ==========================================
+	"npm.packageManager": "pnpm"
+}
