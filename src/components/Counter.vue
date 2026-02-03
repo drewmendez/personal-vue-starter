@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import { useCounter } from '../stores/useCounter'
-
-const counter = useCounter()
+const counter = useCounterStore()
 </script>
 
 <template>

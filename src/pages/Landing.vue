@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import Counter from '../components/Counter.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
 	<div class="h-screen overflow-hidden bg-linear-to-br from-blue-50 via-white to-purple-50">
