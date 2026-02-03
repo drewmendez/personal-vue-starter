@@ -1,5 +1,5 @@
 export default {
-	tailwindStylesheet: './src/style.css',
+	tailwindStylesheet: './src/assets/main.css',
 	semi: false,
 	singleQuote: true,
 	trailingComma: 'all',

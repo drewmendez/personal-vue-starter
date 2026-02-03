@@ -3,7 +3,7 @@ import Counter from '../components/Counter.vue'
 </script>
 
 <template>
-	<div class="h-screen overflow-hidden bg-gradient-to-br from-blue-50 via-white to-purple-50">
+	<div class="h-screen overflow-hidden bg-linear-to-br from-blue-50 via-white to-purple-50">
 		<div class="container mx-auto h-full px-6 py-4">
 			<!-- Compact Header -->
 			<header class="mb-3 text-center">
@@ -90,7 +90,7 @@ import Counter from '../components/Counter.vue'
 
 				<!-- Tech Stack Section -->
 				<section
-					class="flex flex-col rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 p-4 text-white shadow-lg"
+					class="flex flex-col rounded-xl bg-linear-to-r from-blue-600 to-purple-600 p-4 text-white shadow-lg"
 				>
 					<h2 class="mb-3 text-lg font-semibold">Tech Stack</h2>
 					<div class="flex flex-1 flex-col gap-4">
