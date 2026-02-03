@@ -9,7 +9,7 @@ export default antfu(
 			'no-console': 'off',
 			'ts/consistent-type-definitions': 'off',
 		},
-		ignores: ['pnpm-lock.yaml', 'bun.lock', 'client/types/codegen/*.ts'],
+		ignores: ['pnpm-lock.yaml', '*.md'],
 	},
 	eslintPluginPrettierRecommended,
 )
