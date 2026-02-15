@@ -1,5 +1,5 @@
 import antfu from '@antfu/eslint-config'
-import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
+import eslintConfigPrettier from 'eslint-config-prettier/flat'
 
 export default antfu(
 	{
@@ -11,5 +11,5 @@ export default antfu(
 		},
 		ignores: ['pnpm-lock.yaml', '*.md'],
 	},
-	eslintPluginPrettierRecommended,
+	eslintConfigPrettier,
 )
